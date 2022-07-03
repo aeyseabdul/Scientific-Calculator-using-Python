@@ -106,9 +106,8 @@ def back():
 calc = tk.Tk()
 calc.title('Calculator')
 calc.config(bg='#E6E6E6')
-#icon=PhotoImage(file="E:\personal\maths\calc.ico")
-calc.iconbitmap("E:\personal\maths\calc.ico")
-#calc.geometry('310x230')
+## Add your Directory below for icon
+calc.iconbitmap("yourdirectory\calc.ico")
 calc.resizable(False, False)
 calc.config(bg='#dddddd')
 input=StringVar()
